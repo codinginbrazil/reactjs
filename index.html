@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="github.com/sswellington">
+    <meta name="description" content="Desenvolvimento Web">
+    <meta name="keywords" content="Desenvolvimento Web, React">
+    <meta name="robots" content="Desenvolvimento Web, React">
+    <meta name="title" content="Desenvolvimento Web">
+
+    <title>Add React in One Minute</title>
+
+    <!-- Load Haruno. -->
+    <link rel="stylesheet" href="https://sswellington.github.io/haruno/static/css/new.min.css" />
+    <link rel="stylesheet" href="https://sswellington.github.io/haruno/static/css/sarada.min.css" />
+</head>
+
+<body>
+    <h2>Add React in One Minute</h2>
+    <p>This page demonstrates using React with no build tooling.</p>
+    <p>React is loaded as a script tag.</p>
+
+    <!-- We will put our React component inside this div. -->
+    <div id="like_button_container"></div>
+
+    <!-- Load React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script src="https://unpkg.com/react@17/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js" crossorigin></script>
+
+    <!-- Load our React component. -->
+    <script src="js/like_button.js"></script>
+</body>
+
+</html>
