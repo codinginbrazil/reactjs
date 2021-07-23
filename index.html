@@ -24,6 +24,14 @@
     <p>This page demonstrates using React with no build tooling.</p>
     <p>React is loaded as a script tag.</p>
 
+    <form>
+        <label>
+          Nome:
+          <input type="text" name="name" />
+        </label>
+        <input type="submit" value="Enviar" />
+    </form>
+
     <!-- We will put our React component inside this div. -->
     <div id="like_button_container"></div>
 
@@ -31,6 +39,7 @@
     <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
     <script src="https://unpkg.com/react@17/umd/react.production.min.js" crossorigin></script>
     <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
 
     <!-- Load our React component. -->
     <script src="js/like_button.js"></script>
