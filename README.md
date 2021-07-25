@@ -30,4 +30,6 @@ criar sites estáticos usando React. Ele permite usar componentes React, porém 
 
 ## Referência
 
+* [JERGA, Filip. Form Validation with Next.js/React, 2020](https://codeburst.io/form-validation-with-next-js-react-part-1-ecceb50bc209)
 * [JUSTEN, William. NextJS, Gatsby ou Create React App? Entendendo os conceitos de SSR, SSG e SPA, 2020](https://willianjusten.com.br/nextjs-gatsby-ou-create-react-app-entendendo-os-conceitos-de-ssr-ssg-e-spa)
+* [RABELO, Eduardo, Next.js: O Guia Complete para Autenticação, 2020](https://oieduardorabelo.medium.com/next-js-o-guia-complete-para-autentica%C3%A7%C3%A3o-5e801b8a09af)

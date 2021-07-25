@@ -1,7 +1,8 @@
 import Layout from '../components/layout'
 
 
-export default function HomePage() {
+export default function Form() {
+    // https://nextjs.org/docs/authentication
 
     const registerUser = async event => {
         event.preventDefault()
@@ -26,13 +27,13 @@ export default function HomePage() {
             <h1>Bem-vindo</h1>
             <form onSubmit={registerUser}>
                 <div className="form-group">
-                    <label htmlFor="login">Email</label>
+                    <label htmlFor="login">Nome de usuário</label>
                     <input
                         id="login" 
                         name="login"
                         type="text"
                         autocomplete="name" 
-                        placeholder="Digite o seu email"
+                        placeholder="Digite o seu nome de usuário"
                         className="form-control"
                         required 
                     />
@@ -58,7 +59,7 @@ export default function HomePage() {
 }
 
 
-HomePage.getLayout = function getLayout(page) {
+Form.getLayout = function getLayout(page) {
     return (
         <Layout>
             {page}
