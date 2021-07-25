@@ -28,24 +28,22 @@ export default function HomePage() {
                 <div className="form-group">
                     <label htmlFor="login">Email</label>
                     <input
-                        id="login" 
-                        name="login"
-                        type="text"
-                        autocomplete="name" 
+                        id="email"
+                        name="email"
+                        type="email"
                         placeholder="Digite o seu email"
                         className="form-control"
-                        required 
+                        required
                     />
                 </div>
 
                 <div className="form-group">
                     <label htmlFor="password">Senha</label>
                     <input
-                        id="password" 
+                        id="password"
                         name="password"
-                        type="text"
-                        autocomplete="name"
-                        placeholder="Digite a sua senha" 
+                        type="password"
+                        placeholder="Digite a sua senha"
                         className="form-control"
                         required
                     />

@@ -9,7 +9,11 @@ export default function Navbar() {
             </Link>
 
             <Link href="/form">
-                <a>Form &nbsp;</a>
+                <a>Adicionar cliente &nbsp;</a>
+            </Link>
+
+            <Link href="/form">
+                <a>Listar cliente &nbsp;</a>
             </Link>
 
             <Link href="/about">
