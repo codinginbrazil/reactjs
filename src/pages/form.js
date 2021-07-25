@@ -27,7 +27,7 @@ export default function Form() {
             <h1>Adicionar cliente</h1>
             <form onSubmit={registerUser}>
                 <div className="form-group">
-                    <label htmlFor="client">Tipo cliente:</label>
+                    <label htmlFor="client">Tipo do cliente:</label>
                     <select id="client" name="client" className="form-control">
                         <option value="cnpj">CNPJ</option>
                         <option value="cpf">CPF</option>
@@ -76,6 +76,18 @@ export default function Form() {
                         required
                     />
                 </div>
+
+                <div className="form-group">
+                    <label htmlFor="client_id">Número do cliente:</label>
+                    <input
+                        id="client_id"
+                        name="client_id"
+                        type="text"
+                        placeholder="Digite o número do documento"
+                        className="form-control"
+                        required
+                    />
+                </div>
                                 
                 <div className="form-group">
                     <label htmlFor="email">Email:</label>
@@ -101,7 +113,7 @@ export default function Form() {
                     />
                 </div>
 
-
+                <hr></hr>
                 <div className="form-group">
                     <label htmlFor="cep">CEP:</label>
                     <input

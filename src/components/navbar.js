@@ -12,7 +12,7 @@ export default function Navbar() {
                 <a>Adicionar cliente &nbsp;</a>
             </Link>
 
-            <Link href="/form">
+            <Link href="/list">
                 <a>Listar cliente &nbsp;</a>
             </Link>
 
