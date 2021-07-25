@@ -1,12 +1,20 @@
+import Layout from '../components/layout'
+
+
 export default function HomePage() {
     return(
         <div>
-            <nav>
-                <a href="/"> Home</a> |
-                <a href="/about"> About</a>
-            </nav>
             <br></br>
             <h1>Welcome to Next.js!</h1>
         </div>
+    )
+}
+
+
+HomePage.getLayout = function getLayout(page) {
+    return (
+        <Layout>
+            {page}
+        </Layout>
     )
 }
